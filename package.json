@@ -1,0 +1,40 @@
+{
+  "name": "port-manager",
+  "description": "TCP port availability and assignment tool.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marcello Gesmundo",
+    "email": "mgesmundo@yoovant.com",
+    "url": "http://www.yoovant.com"
+  },
+  "keywords": [
+    "port",
+    "tcp",
+    "manager",
+    "availability"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgesmundo/port-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgesmundo/port-manager/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js --reporter spec"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "debug": "~1.0.4",
+    "mocha": "~1.21.3",
+    "should": "~4.0.4",
+    "sinon": "~1.10.3"
+  },
+  "analyze": false,
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
