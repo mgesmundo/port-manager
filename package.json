@@ -1,7 +1,7 @@
 {
   "name": "port-manager",
   "description": "TCP port availability and assignment tool.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Marcello Gesmundo",
     "email": "mgesmundo@yoovant.com",
@@ -25,9 +25,9 @@
     "test": "mocha test/test.js --reporter spec"
   },
   "dependencies": {
+    "debug": "~1.0.4"
   },
   "devDependencies": {
-    "debug": "~1.0.4",
     "mocha": "~1.21.3",
     "should": "~4.0.4",
     "sinon": "~1.10.3"
