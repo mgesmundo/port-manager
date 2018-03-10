@@ -77,7 +77,7 @@ For a full documentation see the `doc` folder content.
 
 ## Tests
 
-As usual our tests are written in the BDD styles for the [Mocha](http://visionmedia.github.com/mocha) test runner using the `should` assertion interface and the great test spies tool [Sinon](http://sinonjs.org).
+As usual our tests are written in the BDD styles for the [Mocha](http://mochajs.org/) test runner using the `should` assertion interface and the great test spies tool [Sinon](http://sinonjs.org).
 To run the test simply type in your terminal:
 
 ```bash
